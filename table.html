@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Таблицы и формы</title>
+</head>
+<body>
+    <table class="bill-table">
+     <thead>
+        <tr>
+            <th>Название</th>
+            <th>Цена</th>
+            <th>Кол-во</th>
+            <th>Стоимость</th>
+        </tr>
+     </thead>
+     <tbody>
+        <tr>
+            <td>Карандаш</td>
+            <td>20</td>
+            <td>4</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>Ручка</td>
+            <td>50</td>
+            <td>2</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Ластик</td>
+            <td>15</td>
+            <td>3</td>
+            <td>45</td>
+        </tr>
+        <td colspan="3">Итог</tdr>
+        <td>225</td>
+     </tbody>
+     </table>
+
+     <form id="reg-form">
+        <label for="name">Введите имя</label><br>
+        <input id="name" name="name" type="text" placeholder="Имя" required ><br>
+        <label for="pass">Введите имя</label><br>
+        <input id="pass" name="pass" type="password" placeholder="Пароль" required><br>
+        <input type="radio" name="gender" id="gender-m" value="mail" checked>
+        <label for="gender-m">м</label>
+        <input type="radio" name="gender" id="gender-f" value="femail">
+        <label for="gender-f">ж</label>
+
+        <input type="submit" value="Зарегестрироваться">
+        <input type="reset">
+     </form>
+</body>
+</html>

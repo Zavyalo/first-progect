@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Cайт искусствоведа</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="keywords" content="искусство, искусствоведение">
+    <meta name="description" content="Статьи про Западноевропейское искусство и культуру, подборки картин и интесные факты из мира искусства">
+    <meta property="og:title" content="Сайт искусствоведа">
+    <meta property="og:site_name" content="Сайт искусствоведа">
+    <meta property="og:url" content="https://site.ru">
+    <meta property="og:description" content="Статьи про Западноевропейское искусство и культуру, подборки картин и интесные факты из мира искусства">
+    <meta property="og:image" content="img/photo.png">
+    <link rel="icon" type="image/ico" sizes="32x32" href="favicon.ico">
+    <link rel="icon" type="image/ico" sizes="16x16" href="favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#4285f4" />
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#4285f4" />
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-transcluent" />
+    <!-- Яндекс.Браузер -->
+    <meta name="viewport" content="ya-title=#000000,ya-dock=fade" />
+</head>
+<body>
+    <header>
+        <section  id="title">
+        <h1>Личный  сайт искуствоведа</h1> 
+        <img src="img/face-smile-beam-regular.svg" width="40px">
+        <nav>
+            <ul>
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#articles">Мои статьи</a></li>
+                <li><a href="#feedback">Мои статьи</a></li>
+            </ul>
+        </nav>
+    </section>
+    </header>
+    <main>
+        <section  id="about">
+            <h3>Обо мне</h3>
+            <a href="img/photo.png" download>
+            <img class="text-pict" src="img/photo.png" height="320px" alt="фото автора"></a>
+            <p>Привет! Я Полина Завьялова - искусствовед-любитель. На моём сайте вы можете найти интересные и познавательные статьи про Западноевропейское искусство и культуру. Также вас могут заинтересовать различные подборки картин с интересными фактами про них. Приятного чтения!</p>
+            <p lang="en">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt doloremque tempore voluptas repellendus. Cumque modi quisquam debitis pariatur. Quos tenetur laboriosam perspiciatis excepturi aspernatur iusto labore velit ullam exercitationem dignissimos.</p>
+        </section>
+        <section id="articles">
+            <h3>Мои статьи</h3>
+            <ol class="menu-articles">
+                <li><a class="viev" href="article1.html">Искусство Древней Греции</a></li>
+                <li><a href="article2.html">Искусство Древнего Рима</a></li>
+                <li><a href="article3.html">Шедевры живописи эпохи Возрождения в Эрмитаже</a></li>
+                <li><a href="article4.html">Эпоха Возрождения</a></li>
+                <li><a href="terms.html">Список терминов</a></li>
+                <li><a href="table.html">Список терминов</a></li>
+            </ol>
+        </section>
+        <section>
+            <form id="contact-form">
+                <div class="form__item">
+                <label for="name">Тема</label><br>
+                <select name="topic" id="topic">
+                    <option value="1">Заказать услугу</option>
+                    <option value="2">Оставить отзыв/замечание</option>
+                    <option value="3">Предложить сотрудничество</option>
+                    <option value="4">Другое</option>
+                </select>
+                </div>
+                <label for="name">Имя</label><br>
+                <div class="form__item">
+                    <input id="name" name="name" type="text" required><br>
+                </div>
+                <label for="name">E-mail</label><br>
+                <div class="form__item">
+                    <input id="name" name="name" type="email" required><br>
+                </div>
+                <label for="name">Текст сообщения</label><br>
+                <div class="form__item">
+                    <textarea name="name" id="name" cols="30" rows="10" required></textarea><br>
+                </div>
+                <label for="name">Дата рождения</label><br>
+                <div class="form__item">
+                    <input type="date" id="name" name="name"><br>
+                </div>
+                <label for="name">Номер телефона</label><br>
+                <div class="form__item">
+                    <input type="tel" id="name" name="name" required><br>
+                </div> 
+                <label>
+                    <input type="checkbox" value="consent" required>
+                    Принимаю согласие на обработку персональных данных
+                </label>
+                <div class="form__item">
+                    <input type="submit" value="ОТПРАВИТЬ">
+                </div>
+
+                
+
+             </form>
+        </section>
+    </main>
+    <footer>
+        <div class="logo">
+        <p>&copy; Завьялова Полина, 2023г.</p>
+        <p>Вы также можете найти меня <a target="_blank" href="https://portal.midis.info/company/personal/user/19517/">здесь</a></p>
+        <img src="img/envelope.svg" width="40px">
+        <img src="img/send.svg" width="40px">
+        </div>
+    </footer>
+</body>
+</html>
